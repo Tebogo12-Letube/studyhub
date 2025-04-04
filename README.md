@@ -23,11 +23,4 @@ Welcome to **StudyHub** – an interactive learning platform where users can exp
 ## 📂 Project Structure
 /self-study-website │── /public │ │── index.html │ │── about.html │── /assets │ │── /css │ │ │── styles.css │ │── /js │ │ │── scripts.js │ │── /images │── /server │ │── app.js │ │── database.sql │── README.md │── package.json │── .gitignore
 
----
-
-## ⚙️ Installation Guide
-### 1️⃣ Clone the Repository:
-```sh
-git clone https://github.com/Tebogo12-Letube/studyhub-website.git
-
 
