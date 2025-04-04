@@ -20,3 +20,24 @@ document.addEventListener("DOMContentLoaded", function() {
 function adminPanel() {
     window.location.href = "admin-dashboard.html";
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Student dashboard loaded successfully!");
+});
+
+// Example study progress system
+let progress = {
+    lessonsCompleted: 4,
+    totalLessons: 10,
+    studyTime: "2h 30m"
+};
+
+function startQuiz() {
+    window.location.href = "quizzes.html"; // Redirect to quiz page
+}
+
+function logout() {
+    sessionStorage.removeItem("user");
+    alert("You have been logged out.");
+    window.location.href = "login.html";
+}

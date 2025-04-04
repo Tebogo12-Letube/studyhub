@@ -13,19 +13,42 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a href="quizzes.html">Quizzes</a></li>
+                <li><a href="progress.html">Track Progress</a></li>
+                <li><a href="#" onclick="logout()">Logout</a></li>
+                <li><a href="add-course.html">Create Course</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <h2>Your Learning Progress</h2>
-        <p>Explore your achievements and track modules.</p>
+        <p>📊 Explore your achievements and track study modules.</p>
+        
+        <div id="progress-tracking">
+            <p><strong>Lessons Completed:</strong> 4/10</p>
+            <p><strong>Time Spent:</strong> 2h 30m</p>
+        </div>
+
+        <h2>Study Modules</h2>
+        <div id="study-modules">
+            <p>📝 <strong>Mathematics:</strong> Algebra, Trigonometry, Calculus, Statistics</p>
+            <p>📖 <strong>Science:</strong> Physical Sciences (Physics & Chemistry), Life Sciences (Biology & Human Anatomy), Agricultural Science</p>
+            <p>🌍 <strong>Humanities & Social Sciences:</strong> History (Colonialism, Apartheid, Democracy), Geography (Climate, Sustainability, Global Issues), Economics</p>
+            <p>💻 <strong>Technology & IT:</strong> Computer Applications Technology (CAT), Information Technology (Software Development, AI, Cybersecurity), Engineering Graphics & Design (EGD)</p>
+            <p>🎭 <strong>Arts & Languages:</strong> English, isiZulu, Afrikaans, Sesotho, Visual Arts, Drama, Music</p>
+            <p>🏗 <strong>Business & Engineering:</strong> Business Studies, Accounting, Civil & Electrical Engineering, Entrepreneurship</p>
+        </div>
+
+        <h2>Quick Quiz</h2>
+        <p>Test your knowledge with a quick quiz!</p>
+        <button onclick="startQuiz()">Take a Quiz</button>
     </main>
 
     <footer>
         <p>&copy; 2025 StudyHub. All rights reserved.</p>
     </footer>
+
     <script src="assets/js/dashboard.js"></script>
 </body>
 </html>
