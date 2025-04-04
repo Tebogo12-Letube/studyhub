@@ -10,7 +10,9 @@ Welcome to **StudyHub** – an interactive learning platform where users can exp
 - **Interactive Quizzes** – Self-assessment through quiz challenges.
 - **Progress Tracking** – Track completed lessons and achievements.
 - **Discussion Forum** – Collaborate and share insights with other learners.
-- 
+
+---
+ 
 - **[well thats the idea]**
 
 ---
