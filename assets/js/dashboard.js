@@ -1,11 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const user = sessionStorage.getItem("user");
-    if (!user) {
-        window.location.href = "login.html";
-    }
+    console.log("Dashboard loaded successfully!");
 });
 
+// Optional logout function (only if login exists)
 function logout() {
     sessionStorage.removeItem("user");
-    window.location.href = "login.html";
+    alert("You have been logged out.");
 }
